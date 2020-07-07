@@ -1,0 +1,53 @@
+.navbar img{
+    width: 100px;
+}
+.container{
+    margin-bottom: 100px;
+}
+.carousel-indicators > li{
+    background-color: lightgray;
+    width: 12px;
+    height: 9px;
+    border-radius: 50%;
+    
+}
+.carousel-indicators > .active{
+    background-color: orange;
+    width: 50px;
+    height: 9px;
+    border-radius:12px;
+}
+.card-footer{
+    border-top: none;
+    background-color: transparent;
+    text-align: center;
+}
+.card{
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px lightgray;
+    
+}
+.card:hover{
+     box-shadow: 1px 1px 40px lightgray;
+}
+.card > img{
+    width: 80%;
+    margin: auto;
+    margin-top: 19px ;
+
+}
+
+.cat-heading a{
+    text-decoration: none;
+    color: orange;
+    font-size: medium;
+}
+.cat-heading a:hover{
+    text-decoration: underline;
+}
+.cat-heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
